@@ -1,0 +1,28 @@
+.sidebar {
+    width: var(--sidebar-width); 
+    border-inline: var(--border) solid var(--prim);
+}
+.vChat {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.release {
+    padding: 5px;
+    line-height: 1em;
+    font-family: Ubuntu;
+    border-top: var(--border) solid var(--prim);
+}
+input[name=note] {
+    width: var(--sidebar-width);
+    width: 337px;
+}
+
+@media only screen and (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+:root {
+    --sidebar-width: 480px;
+}
