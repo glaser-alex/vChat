@@ -38,6 +38,9 @@
     <div><a class="fa fa-gamepad" href="https://www.alex-glaser.de/games"></a></div>
     <div><a class="fa fa-comment-o" href="https://www.alex-glaser.de/kontakt"></a></div>
     <div><a class="fa fa-refresh" href="./" accesskey="r"></a></div>
+    <?php if ($_COOKIE['username'] == 'admin'): ?>
+      <div><a class="fa fa-trash" href="?action=clearChat"></a></div>
+    <?php endif; ?>
     <div><a class="fa fa-sign-out" href="../login/logout.php"></a></div>
 </nav>
 
@@ -62,6 +65,10 @@
       <?php
         $dateiname = "./chat.txt";
         if (file_exists($dateiname)) { echo file_get_contents($dateiname); }
+
+        if ($_GET['action'] = 'clearChat') {
+          file_put_contents($dateiname, '');
+        }
       ?>
     </div>
   </div>
