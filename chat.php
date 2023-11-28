@@ -94,14 +94,17 @@ $(document).ready(function(){
   if (screen.width <= '900') {
     setInterval(loadLog, 500);
     $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>">');
-    const message = document.getElementById('message');
-    const chatBox = document.getElementById('chatBoxDIV');
+    var message = document.getElementById('message');
+    var chatBoxDIV = document.getElementById('chatBoxDIV');
+    var html = document.querySelector("html");
     message.addEventListener('focusin', (event) => {
-      chatBox.style.height = "40vh";
+      chatBoxDIV.style.height = "88%";
+      document.querySelector("html").style.height = "130%";
       scrollToBottom();
     })
     message.addEventListener('focusout', (event) => {
-      chatBox.style.height = "70vh";
+      chatBoxDIV.style.height = "88%";
+      document.querySelector("html").style.height = "90vh";
     })
   } else {
     setInterval(loadLog, 100);
