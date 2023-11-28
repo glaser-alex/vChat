@@ -23,8 +23,7 @@ main {
 .chatBoxDIV {
     height: 88%;
     overflow: scroll;
-    scroll-behavior: smooth; /* Animiertes Scrollen */
-    transition: scroll-behavior 100s; /* Übergangsanimation für das Scrollverhalten */
+    scroll-behavior: smooth;
     scrollbar-width: none;  /* Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
     border-block: var(--border) solid var(--prim);

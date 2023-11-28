@@ -1,0 +1,26 @@
+nav {
+    min-width: 50px;
+    /* border: 2px solid black; */
+}
+nav a {
+    color: var(--prim);
+    text-decoration: none;
+}
+nav > div {
+    padding: 10px;
+    font-size: xx-large;
+}
+nav > div:first-child {
+    height: 43px;
+    padding: 5px 10px 0 10px;
+}
+.logo {
+    font-size: medium;
+    border-bottom: var(--border) solid var(--prim);
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        display: none;
+    }
+}

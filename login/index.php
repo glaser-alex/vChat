@@ -30,7 +30,7 @@
       $ergebniss = mysqli_query($link, $sql);
 
       while ($row = mysqli_fetch_object($ergebniss)) {
-        $password_aus_db = $row->pwd;
+        $password_aus_db = $row->password;
         $pw_verify = password_verify($password, $password_aus_db);
         // echo "User Passwort: ".$password."<br>Datenbank Passwort: ".$password_aus_db."<br>Verify: ".($pw_verify?"true":"false");
         if ($username == $row->username && $pw_verify) {

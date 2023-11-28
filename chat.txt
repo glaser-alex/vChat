@@ -64,67 +64,41 @@
 
 <div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ich finde das lied gut</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:26) </span><b style='color: #31a2d6'>alex</b> hallo</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:26) </span><b style='color: #31a2d6'>alex</b> dsafadfas</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:32) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:26) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:32) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:26) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:33) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:26) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:33) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:28) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:33) </span><b style='color: #31a2d6'>alex</b> dff</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:29) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:33) </span><b style='color: #31a2d6'>alex</b> aaa</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:30) </span><b style='color: #31a2d6'>alex</b> sdfd</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:36) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:30) </span><b style='color: #31a2d6'>alex</b> sdfd</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:36) </span><b style='color: #31a2d6'>alex</b> e</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:30) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:37) </span><b style='color: #31a2d6'>alex</b> aa</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:30) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:47) </span><b style='color: #31a2d6'>alex</b> sf</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:40) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:47) </span><b style='color: #31a2d6'>alex</b> a</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:40) </span><b style='color: #31a2d6'>alex</b> asdfasdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:48) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:40) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:48) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:41) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:41) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> tert</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:42) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> sdf</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:42) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> f</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:42) </span><b style='color: #31a2d6'>alex</b> f</div>
 
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> f</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:49) </span><b style='color: #31a2d6'>alex</b> adf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:50) </span><b style='color: #31a2d6'>alex</b> adf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:50) </span><b style='color: #31a2d6'>alex</b> f</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:50) </span><b style='color: #31a2d6'>alex</b> f</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:50) </span><b style='color: #31a2d6'>alex</b> sdf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:51) </span><b style='color: #31a2d6'>alex</b> sdf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:53) </span><b style='color: #31a2d6'>alex</b> f</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:53) </span><b style='color: #31a2d6'>alex</b> fa</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:53) </span><b style='color: #31a2d6'>alex</b> fa</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:55) </span><b style='color: #31a2d6'>alex</b> f</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:55) </span><b style='color: #31a2d6'>alex</b> asdf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:56) </span><b style='color: #31a2d6'>alex</b> asdf</div>
-
-<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(16:58) </span><b style='color: #31a2d6'>alex</b> a</div>
+<div class='messageDIV' style='background: #31A2D630'><span class='messageTime'>(15:42) </span><b style='color: #31a2d6'>alex</b> sdf</div>
 

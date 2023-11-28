@@ -69,13 +69,6 @@
 </head> 
 <body>
 <?php
-  session_start();
-  // error_reporting(E_ALL && ~E_WARNING);
-  // echo "<pre>"; print_r($_SESSION); echo "</pre>";
-  // echo "<pre>"; print_r($_COOKIE); echo "</pre>";
-  // echo "<pre>"; print_r($_GET); echo "</pre>";
-  // echo "<pre>"; print_r($_POST); echo "</pre>";
-
     if ($_COOKIE['username'] != 'admin' && $_COOKIE['username'] != 'valentina') {
       if ($_COOKIE['username'] == "") { header('Location: ./login'); }
       echo "<div class='the-box'>";

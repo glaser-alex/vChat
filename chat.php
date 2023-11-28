@@ -37,7 +37,7 @@
     <div><a class="fa fa-home" href="https://www.alex-glaser.de/home"></a></div>
     <div><a class="fa fa-gamepad" href="https://www.alex-glaser.de/games"></a></div>
     <div><a class="fa fa-comment-o" href="https://www.alex-glaser.de/kontakt"></a></div>
-    <div><a class="fa fa-refresh" href="./"></a></div>
+    <div><a class="fa fa-refresh" href="./" accesskey="r"></a></div>
     <div><a class="fa fa-sign-out" href="../login/logout.php"></a></div>
 </nav>
 
@@ -80,22 +80,15 @@
 
   include "./inc/auswerten.php";
 ?>
-
 <script type="text/javascript">
 
 // jQuery Document
 $(document).ready(function(){
 
   function scrollToBottom() {
-    // var content = $("#content");
-    // content[0].scrollIntoView({
-    //   behavior: 'auto',
-    //   block: 'end',
-    //   inline: 'end'
-    // });
-    console.log("true");
     var chatBoxDIV = document.getElementById('chatBoxDIV');
     chatBoxDIV.scrollTop = chatBoxDIV.scrollHeight;
+    // chatBoxDIV.scrollTop -= 50;
   }
 
   if (screen.width <= '900') {
@@ -111,7 +104,7 @@ $(document).ready(function(){
       chatBox.style.height = "70vh";
     })
   } else {
-    setInterval(loadLog, 10000);
+    setInterval(loadLog, 100);
     $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>" autofocus>');
   }
 
@@ -122,10 +115,9 @@ $(document).ready(function(){
       url: "chat.txt",
       cache: false,
       success: function(html){		
-        if (alt_text != html) {
-          console.log("alt: \n" + alt_text);
-          console.log("neu: \n" + html);
-          $("#content").html(html); //Insert chat log into the #chatBox div
+        $("#content").html(html); //Insert chat log into the #chatBox div
+        var neu_text = $("#content").html();
+        if (alt_text != neu_text) {
           scrollToBottom();
         }
       },
