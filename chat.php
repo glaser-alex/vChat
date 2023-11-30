@@ -54,6 +54,7 @@
     <?php
       include "./inc/release.html";
     ?>
+  <emoji-picker class="light display-none"></emoji-picker>
   </div>
 </div>
 
@@ -74,10 +75,10 @@
     </div>
   </div>
   <form class="messageForm" action="" method="post" enctype="multipart/form-data">
-    <emoji-picker></emoji-picker>
-    <label for="fileToUpload">Upload</label>
+    <label for="fileToUpload" class="fa fa-upload"></label>
     <input id="fileToUpload" type="file" name="fileToUpload">
-    <span id="MessageInput"></span>
+    <label id="toggle-emoji-picker" class="fa fa-smile-o emoji-picker"></label>
+    <div id="MessageInput"><input id="message" type="text" name="message" placeholder="<?php echo $messagePlaceholder; ?>"></div>
     <input type="submit" name="submit" value="Senden">
   </form>
 
@@ -91,48 +92,59 @@
 ?>
 <script type="text/javascript">
 
-  document.querySelector('emoji-picker').addEventListener('emoji-click', (event) => {
-    console.log(event.detail.unicode);
-  });
+// zum Debuggen
+document.querySelector('emoji-picker').addEventListener('emoji-click', (event) => {
+  console.log(event.detail.unicode);
+  document.querySelector('#message').value += event.detail.unicode;
+});
+
+let emojiPicker = document.querySelector('#toggle-emoji-picker');
+emojiPicker.onclick = function() {
+  document.querySelector('emoji-picker').classList.toggle('display-none');
+}
 
 // jQuery Document
 $(document).ready(function(){
 
-
-  function scrollToBottom() {
+  function scrollToBottom()
+  {
     var chatBoxDIV = document.getElementById('chatBoxDIV');
     chatBoxDIV.scrollTop = chatBoxDIV.scrollHeight;
-    // chatBoxDIV.scrollTop -= 50;
   }
 
-  if (screen.width <= '900') {
-    setInterval(loadLog, 500);
-    $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>">');
-    var message = document.getElementById('message');
-    var chatBoxDIV = document.getElementById('chatBoxDIV');
-    var html = document.querySelector("html");
-    message.addEventListener('focusin', (event) => {
-      chatBoxDIV.style.height = "88%";
-      document.querySelector("html").style.height = "130%";
-      scrollToBottom();
-    })
-    message.addEventListener('focusout', (event) => {
-      chatBoxDIV.style.height = "88%";
-      document.querySelector("html").style.height = "90vh";
-    })
-  } else {
-    setInterval(loadLog, 100);
-    $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>" autofocus>');
+  function refreshScreen()
+  {
+    if (screen.width <= '900') {
+      setInterval(loadChat, 500);
+      $('.emoji-picker').css("display", "none");
+      $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>">');
+      var message = document.getElementById('message');
+      var chatBoxDIV = document.getElementById('chatBoxDIV');
+      var html = document.querySelector("html");
+      message.addEventListener('focusin', (event) => {
+        chatBoxDIV.style.height = "88%";
+        document.querySelector("html").style.height = "130%";
+        scrollToBottom();
+      });
+      message.addEventListener('focusout', (event) => {
+        chatBoxDIV.style.height = "88%";
+        document.querySelector("html").style.height = "90vh";
+      });
+    } else {
+      setInterval(loadChat, 100);
+        $('.emoji-picker').css("display", "block");
+      $('#MessageInput').html('<input type="text" name="message" id="message" placeholder="<?php echo $messagePlaceholder; ?>" autofocus>');
+    }
   }
 
-  //Load the file containing the chat log
-  function loadLog(){
+  function loadChat()
+  {
     var alt_text = $("#content").html();
     $.ajax({
       url: "chat.txt",
       cache: false,
       success: function(html){		
-        $("#content").html(html); //Insert chat log into the #chatBox div
+        $("#content").html(html);
         var neu_text = $("#content").html();
         if (alt_text != neu_text) {
           scrollToBottom();
@@ -140,6 +152,17 @@ $(document).ready(function(){
       },
     });
   }
+
+  var timeout = false;
+  window.addEventListener('resize', function()
+  {
+    clearTimeout(timeout);
+    // timeout = setTimeout(refreshScreen, 500);
+    refreshScreen();
+  });
+
+  refreshScreen();
+
 });
 </script>
 </body>
