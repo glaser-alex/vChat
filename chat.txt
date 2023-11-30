@@ -1,0 +1,66 @@
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:00) </span><b style='color: #31a2d6'>alex</b> guten morgen valentina </div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(10:01) </span><span style='color: pink'><b>valentina</b>❀</span> und??</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:05) </span><b style='color: #31a2d6'>alex</b> was und?</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(10:08) </span><span style='color: pink'><b>valentina</b>❀</span> ja du musst mir schon hier schreiben</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> es freut mich, dass du gut geschlafen hast</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ja ich hab auch gut geschlafen </div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ich finde das lied gut</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ich glaub dir gefällt der Refrain sehr</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(10:55) </span><span style='color: pink'><b>valentina</b>❀</span> ja find ich catchy </div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(11:00) </span><span style='color: pink'><b>valentina</b>❀</span> wollen wir am sonntag was backen für die auto fahrt?</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(11:01) </span><span style='color: pink'><b>valentina</b>❀</span> oder is das schlecht wegen bröseln </div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(11:16) </span><b style='color: #31a2d6'>alex</b> ja können wir schon machen, wenn wir was zum drunter halten haben</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(11:19) </span><span style='color: pink'><b>valentina</b>❀</span> ok wie machens wir?</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(11:19) </span><span style='color: pink'><b>valentina</b>❀</span> oder muss ich alles alleine machen</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(11:58) </span><span style='color: pink'><b>valentina</b>❀</span> i'm boreddddd</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:03) </span><b style='color: #31a2d6'>alex</b> was könnten wir machen 🤔</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:03) </span><b style='color: #31a2d6'>alex</b> brownies</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:03) </span><b style='color: #31a2d6'>alex</b> kuchen?</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:03) </span><b style='color: #31a2d6'>alex</b> diese cookiebrownies</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(12:05) </span><span style='color: pink'><b>valentina</b>❀</span> ich will das du deine croissants machst</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(12:05) </span><span style='color: pink'><b>valentina</b>❀</span> ich kann am samstag den teig kaufen</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(12:06) </span><span style='color: pink'><b>valentina</b>❀</span> oder willst du den selbst machen</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:10) </span><b style='color: #31a2d6'>alex</b> kauf ihn lieber</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:11) </span><b style='color: #31a2d6'>alex</b> aber ich hätte so lust auf die cookiebrownies</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(12:11) </span><b style='color: #31a2d6'>alex</b> aber ist warscheinlich zu aufwändig</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(12:14) </span><span style='color: pink'><b>valentina</b>❀</span> aufwendig* aber ja ich glaub das ich das nicht kann, ich kauf bestimmt mehr als nur den teig am samstag ein</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:00) </span><b style='color: #31a2d6'>alex</b> guten morgen valentina </div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(10:01) </span><span style='color: pink'><b>valentina</b>❀</span> und??</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:05) </span><b style='color: #31a2d6'>alex</b> was und?</div>
+
+<div class='messageDIV' style='background: #EA91A130'><span class='messageTime'>(10:08) </span><span style='color: pink'><b>valentina</b>❀</span> ja du musst mir schon hier schreiben</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> es freut mich, dass du gut geschlafen hast</div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ja ich hab auch gut geschlafen </div>
+
+<div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ich finde das lied gut</div>
+
