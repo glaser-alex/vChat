@@ -52,7 +52,7 @@ form.messageForm {
     margin: 10px 10px 0 10px;
     gap: 10px;
     display: grid;
-    grid-template-columns: 75px auto 75px;
+    grid-template-columns: 45px 45px auto 80px;
 }
 input, label {
     padding: 10px;
@@ -66,16 +66,6 @@ input[name=message] {
 input[name=message]:focus {
     border-color: #fff;
 }
-label[for=fileToUpload] {
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    padding: 11px;
-    text-align: center;
-    border-radius: 5px;
-    height: fit-content;
-    background-color: var(--prim);
-}
 input[type=file] {
     opacity: 0;
     z-index: -1;
@@ -88,6 +78,24 @@ input[type=submit] {
     height: fit-content;
     border: 1px solid var(--prim);
     background-color: transparent;
+}
+label.fa {
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px;
+    text-align: center;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: var(--prim);
+}
+emoji-picker {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+.display-none {
+    display: none;
 }
 .version {
     width: 100%;
@@ -104,9 +112,6 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 900px) {
-    * {
-        /* border: 1px solid red; */
-    }
     html {
         height: 90vh;
     }
@@ -131,7 +136,10 @@ input[type=submit] {
     }
     form.messageForm {
         gap: 5px;
-        grid-template-columns: 70px auto 70px;
+        grid-template-columns: 40px auto 65px;
+    }
+    label.fa {
+        padding: 12px;
     }
 }
 @media only screen and (max-width: 500px) {
