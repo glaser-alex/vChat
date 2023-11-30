@@ -90,6 +90,7 @@
 
   include "./inc/auswerten.php";
 ?>
+
 <script type="text/javascript">
 
 // zum Debuggen
