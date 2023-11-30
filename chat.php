@@ -67,7 +67,7 @@
         $dateiname = "./chat.txt";
         if (file_exists($dateiname)) { echo file_get_contents($dateiname); }
 
-        if ($_GET['action'] = 'clearChat') {
+        if ($_GET['action'] == 'clearChat') {
           file_put_contents($dateiname, '');
         }
       ?>
