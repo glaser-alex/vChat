@@ -74,7 +74,6 @@
     </div>
   </div>
   <form class="messageForm" action="" method="post" enctype="multipart/form-data">
-    <emoji-picker></emoji-picker>
     <label for="fileToUpload">Upload</label>
     <input id="fileToUpload" type="file" name="fileToUpload">
     <span id="MessageInput"></span>
@@ -90,10 +89,6 @@
   include "./inc/auswerten.php";
 ?>
 <script type="text/javascript">
-
-  document.querySelector('emoji-picker').addEventListener('emoji-click', (event) => {
-    console.log(event.detail.unicode);
-  });
 
 // jQuery Document
 $(document).ready(function(){
