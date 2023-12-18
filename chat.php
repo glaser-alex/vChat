@@ -70,6 +70,7 @@
 
         if ($_GET['action'] == 'clearChat') {
           file_put_contents($dateiname, '');
+          header('Location: ./');
         }
       ?>
     </div>
