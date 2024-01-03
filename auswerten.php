@@ -9,7 +9,7 @@
           flock($datei, LOCK_EX);
   
           if (!empty($_FILES["fileToUpload"]["name"])) {
-            $target_dir = __DIR__ . "/../uploads/";
+            $target_dir = "./uploads/";
 			      $basename = basename($_FILES["fileToUpload"]["name"]);
             $target_file = $target_dir . $basename;
             $uploadOk = 1;
