@@ -145,10 +145,12 @@ $(document).ready(function(){
     $.ajax({
       url: "chat.txt",
       cache: false,
-      success: function(html){		
-        $("#content").html(html);
+      success: function(html){
         var neu_text = $("#content").html();
+        // console.log(neu_text+'\n\n'+alt_text)
         if (alt_text != neu_text) {
+          $("#content").html(html);
+          console.log('true')
           scrollToBottom();
         }
       },
