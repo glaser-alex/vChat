@@ -63,8 +63,3 @@
 <div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ja ich hab auch gut geschlafen </div>
 
 <div class='messageDIV' style='background: #31a2d630'><span class='messageTime'>(10:49) </span><b style='color: #31a2d6'>alex</b> ich finde das lied gut</div>
-
-<div class='messageDIV messageMitImg' style='background: #31A2D630'><span class='messageTime'>(17:33) </span><b style='color: #31a2d6'>alex</b><br><img src='./uploads/WIN_20221006_12_32_28_Pro.jpg' alt='WIN_20221006_12_32_28_Pro.jpg' width='250'></div>
-
-<div class='messageDIV messageMitImg' style='background: #31A2D630'><span class='messageTime'>(17:34) </span><b style='color: #31a2d6'>alex</b><br><img src='C:\xampp\htdocs\Alex\Eigene\vChat\inc/../uploads/WIN_20230525_09_40_16_Pro.jpg' alt='WIN_20230525_09_40_16_Pro.jpg' width='250'></div>
-
