@@ -70,6 +70,7 @@
 
         if ($_GET['action'] == 'clearChat') {
           file_put_contents($dateiname, '');
+          header('Location: ./');
         }
       ?>
     </div>
@@ -88,7 +89,7 @@
   $tag = date('j'); $monat = date('n'); $jahr = date('y');
   echo "<div class='version'>© $jahr Alexander Glaser v.$tag.$monat.$jahr</div>";
 
-  include "./inc/auswerten.php";
+  include "./auswerten.php";
 ?>
 
 <script type="text/javascript">

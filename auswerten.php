@@ -9,8 +9,9 @@
           flock($datei, LOCK_EX);
   
           if (!empty($_FILES["fileToUpload"]["name"])) {
-            $target_dir = "../uploads/";
-            $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+            $target_dir = "./uploads/";
+			      $basename = basename($_FILES["fileToUpload"]["name"]);
+            $target_file = $target_dir . $basename;
             $uploadOk = 1;
             $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
   
@@ -49,10 +50,10 @@
               }
               // If message is empty
               if (empty($_POST['message'])) {
-                fputs($datei, "<div class='messageDIV messageMitImg' style='background: ".$backgroundColor."'><span class='messageTime'>".$date."</span>".$username."<br><img src='../uploads/".$_FILES['fileToUpload']['name']."' width='250'></div>\n\n");
-              } else {
-                fputs($datei, "<div class='messageDIV messageMitImg' style='background: ".$backgroundColor."'><span class='messageTime'>".$date."</span>".$username."<br><img src='../uploads/".$_FILES['fileToUpload']['name']."' width='250'><br>".$_POST['message']."</div>\n\n");
-              }
+                fputs($datei, "<div class='messageDIV messageMitImg' style='background: ".$backgroundColor."'><span class='messageTime'>".$date."</span>".$username."<br><img src='".$target_dir.$_FILES['fileToUpload']['name']."' alt='".$basename."' width='250'></div>\n\n");
+	          } else {
+                fputs($datei, "<div class='messageDIV messageMitImg' style='background: ".$backgroundColor."'><span class='messageTime'>".$date."</span>".$username."<br><img src='".$target_dir.$_FILES['fileToUpload']['name']."' alt='".$basename."' width='250'><br>".$_POST['message']."</div>\n\n");
+	          }
             }         
           } else {
             fputs($datei, "<div class='messageDIV' style='background: ".$backgroundColor."'><span class='messageTime'>".$date."</span>".$username." ".$_POST['message']."</div>\n\n");
