@@ -146,7 +146,7 @@ $(document).ready(function(){
       url: "chat.txt",
       cache: false,
       success: function(html){
-        var neu_text = $("#content").html();
+        var neu_text = html;
         // console.log(neu_text+'\n\n'+alt_text)
         if (alt_text != neu_text) {
           $("#content").html(html);
