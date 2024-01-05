@@ -161,7 +161,6 @@ $(document).ready(function(){
   window.addEventListener('resize', function()
   {
     clearTimeout(timeout);
-    // timeout = setTimeout(refreshScreen, 500);
     refreshScreen();
   });
 
